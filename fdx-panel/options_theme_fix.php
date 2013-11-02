@@ -1,6 +1,6 @@
 <?php
 //----------------------------------------------------
-//GET BLOG CATEGORIES
+//GET BLOG CATEGORIES   2
 	$categories = get_categories('hide_empty=0&orderby=name');
 	$wp_cats = array();
 	foreach ($categories as $category_list ) {
