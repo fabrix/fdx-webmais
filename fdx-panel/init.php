@@ -4,10 +4,10 @@ require_once( dirname(__FILE__) . '/core/option-manager.php' );
 
 fdx::init();
 
-//estas funções so carregam no painel de controle
+//estas funï¿½ï¿½es so carregam no painel de controle
 if (is_admin()) {
 require_once( dirname(__FILE__) . '/core/medialib-uploader.php' );
-require_once( dirname(__FILE__) . '/core/dashboard.php' );
+require_once( dirname(__FILE__) . '/core/dashboard.php' ); xxx
 }
 
 /* Wordpress Login Logo and URL
